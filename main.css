@@ -1,0 +1,114 @@
+/*Universal Style Rules*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Header and Navigation Sections*/
+header {
+  padding: 16px;
+  background-color: #242424;
+}
+
+.spacer {
+  /*border: solid 1px red;*/
+  width: calc(100% - 700px);
+}
+
+body nav {
+  padding-top: 0px;
+  display: inline-block;
+  background-color: #242424;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 12px;
+}
+
+nav ul,
+nav ul li,
+.spacer {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+/* Pages Content and Article Styling */
+/* Article Images*/
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+img {
+  margin: 16px;
+  border: solid 3px #333;
+  max-width: 320px;
+}
+
+/* Article Text */
+.textbox {
+  border: solid 1px red;
+  /*border-style: solid;
+    border-width: 1px;
+    border-color: red;*/
+  margin: 16px;
+  padding: 16px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.post-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.post-info {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+.post-paragraph {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.last-paragraph {
+  margin-bottom: 24px;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.last {
+  margin: 0 130px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #242424;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  /*clear: both;*/
+}
+
+.nav-2 {
+  margin: 10px;
+}
